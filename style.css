@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    color: #24292e;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #24292e;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    border-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+.sec_title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 65px;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin-bottom: 130px;
+    font-size: 0.9rem;
+    padding: 0 4%;
+    margin: auto;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    height: 270px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#header ul {
+    display: flex;
+    padding: 10px 0;
+    margin: 0;
+}
+
+#header li img {
+    width: 20px;
+}
+
+header li {
+    margin-left: 30px;
+}
+
+#main_img {
+    width: 100%;
+    max-width: 1920px;
+    height: 420px;
+    object-fit: cover;
+    margin-bottom: 80px;
+}
+
+#ashley {
+    margin-bottom: 30px;
+}
+
+#about ul {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+#about p {
+    margin: 0;
+    text-align: justify;
+}
+
+#work ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+#work li  {
+    width: 31%;
+    margin-bottom: 23px;
+}
+
+#news dl {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid 1px #c8c8c8;
+    margin-bottom: 20px;
+}
+
+#news dt {
+    width: 15%;
+    border-bottom: solid 1px #c8c8c8;
+    padding: 15px;
+}
+
+#news dd {
+    width: 75%;
+    border-bottom: solid 1px #c8c8c8;
+    padding: 15px;
+    margin: 0;
+}
+
+#contact dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#contact dt {
+    width: 15%;
+}
+
+#contact dd {
+    width: 85%;
+    margin: 0 0 10px;
+}
+
+#contact dd input {
+    width: 100%;
+    border: solid 1px #c8c8c8;
+    padding: 10px;
+}
+
+#contact dd textarea {
+    width: 100%;
+    height: 10rem;
+    border: solid 1px #c8c8c8;
+    padding: 10px;
+}
+
+#contact .buttom {
+    text-align: center;
+}
+
+#contact .buttom input {
+    width: 200px;
+    background-color: #24292e;
+    color: #fff;
+    padding: 15px 0;
+    border: solid 1px #24292e;
+}
+
+#footer {
+    background-color: #24292e;
+    color: #fff;
+    font-size: 0.5rem;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    #news dt {
+        width: 100%;
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    #news dd {
+        width: 100%;
+        padding-top: 0                                          ;
+    }
+}
