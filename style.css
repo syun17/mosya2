@@ -171,6 +171,15 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+    .wrapper {
+        margin-bottom: 70px;
+    }
+    #work ul {
+        flex-direction: column;
+    }
+    #work li {
+        width: 100%;
+    }
     #news dt {
         width: 100%;
         border-bottom: none;
